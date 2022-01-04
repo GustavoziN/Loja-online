@@ -1,0 +1,34 @@
+.camisas {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 5rem;
+}
+
+.camisa-card {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: #f5f5f5;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.camisa-price {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.camisa-buy {
+  border-radius: 4px;
+  margin-top: 2rem;
+  padding: 1.4rem 2.4rem;
+  background: linear-gradient(#5612bf, #3c0593);
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 1.25;
+  color: #fff;
+}
