@@ -1,260 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-
-    <!--Tags obrigatorias-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--links-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!--Bootstrap 4-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
-
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShopStore</title>
-</head>
-<body>
-  <main class="cfg-top">
-    <div class="content">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <a href="#" class="cfg-txt">ShopStore</a>
-         <div class="alg-itens">
-          <div class="box">
-            <div class="container-1">
-                <span class="icon"><i class="fa fa-search"></i></span>
-                <input type="search" id="search" placeholder="Search..." />
-            </div>
-          </div>
-          
-          <img onclick="abrirPerfil()" class="foto-perfil" src="imagens/minamuitoestilosa.jpg" alt="">
-         </div>
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <header class="header-bg">
+      <div class="header">
+        <a href="/">
+          <img src="./assets/img/logo2.svg" alt="" />
+        </a>
+        <nav id="nav">
+          <ul class="header-menu">
+            <li>
+              <a href="#">News</a>
+            </li>
+            <li>
+              <a href="#">Shirts</a>
+            </li>
+            <li>
+              <a href="#">Pants</a>
+            </li>
+            <li>
+              <a href="#">Shoes</a>
+            </li>
+          </ul>
+          <img id="btn-mobile" src="./assets/img/menu-hambunguer.svg" alt="menu-mobile" />
+        </nav>
       </div>
-    </div>
-  </main>
+    </header>
 
-  
-
-  <!-- categorias -->
-
-  <section>
-    <div class="categorias">
-      <li class="categorias-li">
-        <a class="cfg-a" href="#">News</a>
-      </li>
-
-      <li class="categorias-li">
-        <a class="cfg-a" href="#">shirts</a>
-      </li>
-
-      <li class="categorias-li">
-        <a class="cfg-a" href="#">pants</a>
-      </li>
-      <li  class="categorias-li">
-        <a class="cfg-a" href="#">shoes</a>
-      </li>
-    </div>
-  </section><!--Fim categorias-->
-
- 
-
-  <!-- lista menu -->
-    <div id="card-profile">
-      <div class="row">
-        <img  src="http://127.0.0.1:5500/imagens/minamuitoestilosa.jpg" alt="" class="img-perfil">
+    <main class="camisas">
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-      <div class="row">
-        <h2 class="nome">Gustavo Duarte</h2>
-        <p class="cargo">Desenvolvedor front-end</p>
+
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-      <div class="row">
-        <a href=""><i class="fab fa-linkedin"></i>
-        <a href="">  <i class="fab fa-github"></i></a>
-        <a href=""><i class="fas fa-envelope"></i></a></a>
+
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-      <div class="row">
-        <a href="#" class="btn-mais">saiba mais</a>
+
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-    </div>
- 
-  
 
-  <section class="flexbox"><!--inicio aba produtos-->
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p class="cfg-p">shirt levi - black</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p class="cfg-p">shirt levi - black</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p class="cfg-p">shirt levi - black</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p class="cfg-p">camisa eren - preta</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p  class="cfg-p">shirt levi - black</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-
-    <div class="cfg-produtos">
-      <a href=""> <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTNwrjpTJVTi-s47SzJtb3nEWv6Pg5N8AOIOzeNllwI_yP_bOPUXGrA4VK4n_1tq5kQZEEAZgZtEYU4T-hciq5fJx88rXTqQxgmOAGa0iWsneBdXaJsW0Vk&usqp=CAE" alt=""></a>
-      <p  class="cfg-p">shirt levi - black</p>
-      <p class="preco"><a style="color: orange;" href="#">Por: R$25,90</a></p>
-      <p class="cfg-p"><a class="comprar" href="#">Comprar</a></p>
-    </div>
-  </section><!--Fim aba produtos-->
-
-
-  <section ><!--caurousel inicio-->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 style="text-align: center; margin: 20px; font-weight: 650; letter-spacing: 3px;">promotion</h1>
-          <div id="carousel-indicadores" class="carousel slide" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-             <li data-target="#carousel-indicadores" data-slide-to="0"></li>
-
-             <li data-target="#carousel-indicadores" data-slide-to="1"></li>
-
-             <li data-target="#carousel-indicadores" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner">
-
-              <div class="carousel-item active">
-                <img width="100%" height="400px" src="https://ae01.alicdn.com/kf/H6c734449d47f4471b605756e8380b98cW/Tokyo-revengres-camiseta-masculina-de-algod-o-camiseta-anime-manjiro-sano-mang-roupas-tops-camiseta.jpg_Q90.jpg_.webp" alt="">
-              </div>
-
-              <div class="carousel-item">
-                <img width="100%" height="400px" src="https://cf.shopee.com.br/file/e60a1e4e90a31bd1eafa1f8ae4c1476b" alt="">
-              </div>
-              <div class="carousel-item">
-                <img width="100%" height="400px" src="http://cdn.shopify.com/s/files/1/0565/5599/5336/products/product-image-1588200902.jpg?v=1623540108" alt="">
-              </div>
-
-              <!-- controles -->
-              <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-
-              <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-    </div>
-  </section><!--Fim carousel-->
 
-      <!--titulo coleção-->
-    <div><h1 class="colecoes">collection</h1></div>
-
-  <aside  class="flexbox"><!--lista coleção-->
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://observatoriodeseries.uol.com.br/wp-content/uploads/2019/05/attack-on-titan-season-3-characters-poster.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2021/04/Mappas-Chainsaw-Man.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://sm.ign.com/ign_br/tv/o/one-piece-/one-piece-2_1xby.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://sm.ign.com/ign_br/screenshot/b/bneon-gene/bneon-genesis-evangelionbbrbrneon-genesis-evangelion-is-amon_dpz6.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://cdn.ome.lt/mcn4SU2L9WuvAqhGZnEwOm6QAms=/1200x630/smart/extras/conteudos/the-promised-neverland.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://www.omegascopio.com.br/wp-content/uploads/2020/03/materia.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://criticalhits.com.br/wp-content/uploads/2020/09/kimetsu-no-yaiba-lista-de-arcos-episodios-capitulos.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://static.anime21.blog.br/2021/04/CAPA-8.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://otakushinka.com.br/wp-content/uploads/2021/09/KnBFilme_capa.jpg" alt="">
-    </div>
-
-    <div class="cfg-div">
-      <img class="img-colecoes" src="https://uploads.metropoles.com/wp-content/uploads/2020/03/18113459/Bleach1.jpg" alt="">
-    </div>
-  </aside><!--FIm lista coleção-->
-  
-
-  <footer>
-    <div class="cfg-footer">
-      <div>
-        <h5 style="color: white;">quick links</h5>
-        <ul  class="cfg-quick">
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">about</a></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">about</a></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">suport</a></li>
-        </ul>
+      <div class="camisa-card">
+        <img src="./assets/img/phil-monte-4V4t0JcOM5E-unsplash (1).jpg" alt="" />
+        <span class="camisa-price">Por: R$ 25,90</span>
+        <a class="camisa-buy" href="#">Comprar</a>
       </div>
-  
-      <div>
-        <h5 style="color: white;">information</h5>
-        <ul  class="cfg-information">
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">buy</a></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">recipient</a></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">news</a></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="#">read the terms</a></li>
-        </ul>
-      </div>
-  
-      <div>
-        <h5 style="color: white;">social networks</h5>
-        <ul>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="https://www.linkedin.com/in/gustavo-duarte-694ab7213/"><i class="fab fa-linkedin"></i></li>
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="https://github.com/GustavoziN?tab=overview&from=2022-01-01&to=2022-01-03">  <i class="fab fa-github"></i></a></li> 
-          <li class="cfg-li-footer"><a class="cfg-a-footer" href="https://www.instagram.com/duartzin___/"><i class="fab fa-instagram"></i></a></li> 
-        </ul>
-      </div>
-      
-    </div>
-  </footer>
-  
-
-   <!--Links-->
-   <script defer src="scripts.js"></script>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    </main>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
 </html>

@@ -1,0 +1,6 @@
+/* GLOBAL */
+@import url(./global/reset.css);
+/* HEADER */
+@import url(./header/header.css);
+/* CAMISAS */
+@import url(./camisetas/camisas.css);
